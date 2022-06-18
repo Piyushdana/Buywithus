@@ -1,0 +1,66 @@
+$color-primary:#2ea5a4;
+
+
+
+.agent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6f5f5;
+    width: 39rem;
+    margin-left: 27rem;
+    padding: 0.6rem;
+    margin-top: 6rem;
+
+    &-img{
+
+
+        &-icon{
+            height: 5rem;
+            width:5rem;
+            background-color: #c9eaea;
+            padding: 0.8rem;
+            fill: $color-primary ;
+             
+        }
+    }
+    
+
+    &-text{
+
+        margin-left: 1.5rem;
+
+        &-h3{
+            font-size: 1.5rem;
+            font-family: sans-serif;
+            margin-bottom: 0.5rem;
+        }
+
+        &-h5{
+            font-family: sans-serif;
+            font-weight: 500;
+ 
+        }
+    }
+
+    &-btn{ 
+        padding: 0.9rem;
+        width: 7rem;
+        padding: 0.8rem;
+        background-color: $color-primary;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        margin-left: 1.5rem;
+        border-radius: 3px;
+        transition: all .2s;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+
+        &:active{
+            transform: scale(0.9);
+        }
+    }
+}

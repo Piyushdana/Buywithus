@@ -1,0 +1,295 @@
+$color-primary:#2ea5a4;
+
+
+.explore{   
+    text-align: center;
+
+
+    &-text{
+        margin-top: 4rem;
+        
+         margin-bottom: 7rem;
+
+
+        &-h3{
+            font-size: 2rem;
+            font-weight: 600;
+            font-family: sans-serif;
+            padding: 0.8rem;    
+        }
+
+        &-para{
+            font-family: sans-serif;
+            font-weight: 100;
+            font-size: 0.8rem;
+        }
+    }
+
+
+    &-box1{
+        background:  #f9f5f57a;
+        min-height: 32rem;
+        margin-bottom: 2rem;
+
+        @media only screen and (max-width:$bp-min){
+            background:  #f9f5f57a;
+            min-height: 32rem;
+            margin-bottom: 2rem;
+            margin-right: 3rem;
+        }
+
+
+
+        &-top{
+            &-img{ 
+                height: 17rem;
+                width: 24rem; 
+            }
+
+
+            &-button{
+                position: absolute;
+                margin-top: -15rem; 
+                margin-left: 10rem;
+
+                @media only screen and (max-width:$bp-largest){
+                    position: absolute;
+                    margin-top: -15rem; 
+                    margin-left: 10rem;
+                    display: flex;
+                }
+
+                &-btn{      
+                    
+                    &-1{
+                        height: 2rem;
+                        width: 6.5rem;
+                        background-color: $color-primary;
+                        border: none;
+                        
+                        @media only screen and (max-width:$bp-largest){
+                            margin-right: 10px;
+                        }
+                        
+                        @media only screen and (max-width:$bp-min){
+                            margin-right: 10px;
+                        }
+                    
+                       
+
+                    }
+
+                    &-2{
+                        height: 2rem;
+                        width: 6.5rem;
+                        background-color: #666666;
+                        border: none;
+                        
+                        
+                    }
+                   
+                
+                }
+            }
+
+            &-profile{
+
+                position: relative;
+                &-1{
+                    position: absolute;
+                height: 4rem;  
+                width: 4rem;
+                border-radius: 50%;
+                position: absolute;
+                left: 18rem;
+                /* top: -56rem; */
+                margin-top: -3rem;
+                border: 3px solid #29a29a; 
+                z-index: 10;   
+              }
+
+                &-arrowicon{
+                    height: 2rem;
+                    width: 3rem;
+                    margin-left: 21.5rem;
+                    z-index: 20;
+                }
+          }
+
+
+        }
+
+
+        &-bottom{
+            padding: 0.8rem;
+
+            &-h1{
+                text-align: left;
+                 
+                font-weight: 600;
+                font-family: sans-serif;
+                font-size: 1.2rem;
+            
+            }
+
+            &-location{
+                display: flex;
+                 align-items: center;        
+                 fill: #29a29a;
+
+            &-h4{
+                font-size: 0.8rem;
+                font-weight: 100;
+                font-family: sans-serif;
+            }
+
+            &-icon{
+                height: 2rem;
+                width: 1rem;
+            }
+        } 
+        }
+        
+    }
+ 
+    &-row{
+        
+        &-icon{
+            height: 2rem;
+            width: 1.5rem;
+            fill: rgba(137,197, 184, 61%);
+            transition: all .2s;
+
+
+                 &:hover{
+                    fill:$color-primary;
+                 }
+                  
+        }
+
+        &-h5{ 
+            margin-top: -5px; 
+            font-family: sans-serif;
+            font-weight: 100;
+            color: rgba(137,197, 184, 61%);
+            transition: all .2s;
+
+
+            &:hover{
+                 color: $color-primary;
+             }
+        }
+    }
+
+
+    &-pricing{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+          padding: 1rem;
+
+          
+      
+
+
+        &-price{ 
+            margin-right: 1rem;
+            font-size: 1rem;
+            border: 1px solid;
+            padding: 0.5rem;
+            width: 7rem;
+            background-color: #e6f5f5;
+            border: none;
+            color: $color-primary;
+            transition: all .2s;
+
+            &:hover{
+                background-color: $color-primary;
+                color: white;
+            }
+
+            
+        }
+
+        &-arrows{
+            margin-right: 1rem;
+          
+
+            &-img{
+                height: 2rem;
+                /* color: red; */
+                /* fill: red; */
+                background-color:  #eaf6f6;
+                padding: 0.2rem;
+                transition: all .2s;
+
+                &:hover{
+                    background-color: $color-primary;
+                    color: white;
+                }
+
+            }
+        }   
+
+        &-heart{
+            height: 2rem;
+            width: 2rem;
+            margin-right: 1rem;
+            fill: #29a29a;
+            padding: 0.2rem;
+            /* width: 2rem; */
+            background-color:  #eaf6f6;
+            transition: all .2s;
+
+            &:hover{
+                background-color:$color-primary;
+                 fill: white;
+            }
+
+            
+        }
+
+        &-plus{
+            font-size: 1.7rem;
+            background-color:  #eaf6f6;
+            width: 2rem;
+            border-radius: 50%;
+            height: 2rem;
+            border: 1px solid;
+            color: #29a29a;
+            font-weight: 900;
+            transition: all .2s;
+
+
+            &:hover{
+                background-color: $color-primary;
+                color: white;
+            }
+        }   
+    }
+
+
+    &-btn{
+        height: 2.5rem;
+        width: 7rem;
+        background-color: $color-primary;
+        border: none;
+        font-size: 1rem;
+        font-weight: 100;
+        font-family: sans-serif;
+        border-radius: 3px;
+        transition: all .2s;
+        margin-top: 3.5rem;
+        
+
+        &:hover{
+            transform: scale(1.1);
+        }
+
+        &:active{
+            transform: scale(1); 
+        }
+    }
+       
+
+} 

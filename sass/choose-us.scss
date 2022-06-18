@@ -1,0 +1,218 @@
+.choose-us{
+
+    padding: 4rem;
+    background-color: #e6f5f5;
+    margin-top: 7rem;
+
+    &-text{
+
+        text-align: center;
+
+        &-h1{
+            padding: 1rem;
+            font-size: 2rem;
+            font-family: sans-serif; 
+        }
+
+        &-para{
+
+        }
+
+        
+    }
+
+    &-bottom{
+        display: flex;
+         padding: 5rem;
+        
+
+        &-list{
+            flex-basis: 43%;
+
+
+            &-1{
+                display: flex;
+                align-items: center;
+                    margin-bottom: 2rem;
+               
+
+                &-icon{
+                    height: 4.5rem;
+                    width: 4.5rem;
+                    background-color: #2ea5a4;   
+                    padding: 0.9rem;
+                    margin-right: 1.5rem;
+                    fill: white;
+                }
+
+                &-text{
+
+                    &-h1{
+                        margin-top: 0.1rem;
+                        font-family: sans-serif;
+                        font-size: 1.5rem;
+                    }
+                    }
+
+                    &-para{
+                        font-size: 0.9rem; 
+                    
+                }
+            }
+
+            &-2{
+                display: flex;
+                align-items: center;
+                margin-bottom: 2rem;
+
+              
+
+                &-icon{
+                    height: 4.5rem;
+                    width: 4.5rem;
+                    background-color: #2ea5a4;   
+                    padding: 0.9rem;
+                    margin-right: 1.5rem;
+                    fill: white;
+                }
+
+                &-text{
+
+                    &-h1{
+                        margin-top: 0.1rem;
+                        font-family: sans-serif;
+                        font-size: 1.5rem;
+                    }
+                    }
+
+                    &-para{
+                        font-size: 0.9rem; 
+                    
+                }
+            }
+
+
+            &-3{
+                display: flex;
+                align-items: center;
+                margin-bottom: 2rem;
+
+                
+
+                &-icon{
+                    height: 4.5rem;
+                    width: 4.5rem;
+                    background-color: #2ea5a4;   
+                    padding: 0.9rem;
+                    margin-right: 1.5rem;
+                    fill: white;
+                }
+
+                &-text{
+
+                    &-h1{
+                        margin-top: 0.1rem;
+                        font-family: sans-serif;
+                        font-size: 1.5rem;
+                    }
+                    }
+
+                    &-para{
+                        font-size: 0.9rem; 
+                    
+                }
+            }
+
+
+            &-4{
+                display: flex;
+                align-items: center;
+                margin-bottom: 2rem;
+
+ 
+                &-icon{
+                    height: 4.5rem;
+                    width: 4.5rem;
+                    background-color: #2ea5a4;   
+                    padding: 0.9rem;
+                    margin-right: 1.5rem;
+                    fill: white;
+                }
+
+                &-text{
+
+                    &-h1{
+                        margin-top: 0.1rem;
+                        font-family: sans-serif;
+                        font-size: 1.5rem;
+                    }
+                    }
+
+                    &-para{
+                        font-size: 0.9rem; 
+                    
+                }
+            }
+
+
+
+
+
+        }   
+
+        &-img{
+            flex: 1;
+
+            &-1{
+            height: 25rem;
+            width: 42rem;
+            }
+            &-text{
+
+                width: 22rem;
+                background-color: #2ea5a4;
+                color: white;
+                position: absolute;
+                margin-top: -20rem;
+                margin-left: 25rem;
+                padding: 0.6rem;
+
+                &::before{
+                    content: "\201c";
+                    top: 4.2rem;
+                    left: 14rem;
+                    line-height: 1;
+                    font-size: 9rem;
+                    color: #e6f5f5;
+                    z-index: 1;
+                    position: absolute;
+
+        
+                }
+                
+
+                &-para{
+                    font-family: sans-serif;
+                    font-size: 0.9rem;
+                    padding: 0.3rem;
+                }
+
+                &-h1{
+                    font-family: sans-serif;
+                    font-weight: 100;
+                    font-size: 0.9rem;
+                    padding: 0.2rem;
+                
+                }
+
+                &-h5{
+                    font-size: 0.9rem;
+                    font-weight: 100;
+                    font-family: sans-serif;
+                    padding: 0.2rem;
+                }
+            }
+
+        }
+    }
+}

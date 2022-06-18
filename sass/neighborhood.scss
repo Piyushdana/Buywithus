@@ -1,0 +1,90 @@
+.Neighborhood{
+
+
+    &-top{
+
+        text-align: center;
+        &-h1{
+            font-weight: 600;
+            font-family: sans-serif;
+            font-size: 2.5rem;
+            margin-top: 12rem;  
+        }
+
+        &-p{
+            width: 40rem;
+            text-align: center;
+            margin-left: 26rem;
+              padding: 1rem;
+              font-family: sans-serif;
+        }
+    }
+
+
+    &-card{
+        
+         
+
+
+        &-1{
+            height: 24rem;
+            border: 1px solid #cecece;
+            /* padding-bottom: 4rem; */
+            margin-bottom: 1rem;
+
+            @media only screen and (max-width:$bp-min){
+                margin-left: 5rem;
+                margin-right: 5rem;
+            }
+
+
+            &-img{
+                height: 15rem;
+                width: 24rem;
+
+            }
+    
+            &-text{
+                padding: 0.6rem;
+                margin-top: 2rem;
+    
+                &-h3{
+                    font-size: 1rem;
+                    font-family: sans-serif;
+                    font-weight: 300;
+                }
+    
+                &-span{
+                    font-size: 0.8rem;
+                    font-family: sans-serif;
+                    font-weight: 300;
+                }
+            }
+
+            &-icon{
+                height: 2rem;
+                width: 2rem;
+                margin-left: 20rem;
+                margin-top: -2.5rem;
+                position: absolute;
+                background: white;
+                border: 3px solid $color-primary;
+                 border-right: 2px solid $color-primary;
+                 transition: all .2s;
+
+                 &:hover{
+                    background: $color-primary ;
+                    border: 3px solid white;
+                     border-right: 2px solid white;
+                 } 
+                &-arrow{
+                    height: 2rem;
+                    width: 1.7rem;
+                    margin-top: -3px;
+                }
+            }
+        }
+        
+    }
+
+}

@@ -1,0 +1,219 @@
+.property-type{
+    padding: 2rem;
+
+
+    &-text{
+        margin-top: 5rem;
+        text-align: center;
+
+        &-h1{
+           font-size: 2.1rem;
+    font-family: sans-serif;
+        }
+
+        &-para{
+            padding: 1.5rem;
+        }
+      }
+
+
+    &-types{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 2rem;
+        text-align: center;
+        flex-wrap: wrap;
+
+       
+
+       
+
+
+        &-office{
+
+            &-img{
+                height: 6.2rem;
+                width: 6.2rem;
+                transition: all .3s;
+                
+                 
+
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+                
+            }
+    
+            &-h5{
+                text-align: center;
+                font-size: 1.1rem;
+                /* font-family: sans-serif; */
+                font-weight: 600;
+                transition: all .3s;
+                 margin-top: 0.6rem;
+
+
+                &:hover{
+                     color: #2ea5a4;
+                }
+            }
+
+
+            
+              
+        }
+    
+        &-Appartment{
+    
+            &-img{
+                height: 6.2rem;
+                width: 6.2rem;
+                transition: all .3s;
+
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+    
+            &-h5{
+                text-align: center;
+                font-size: 1.1rem;
+                /* font-family: sans-serif; */
+                font-weight: 600;
+                transition: all .3s;
+                margin-top: 0.6rem;
+
+
+                &:hover{
+                    color: #2ea5a4;
+               }
+
+            }
+              
+        }
+    
+        &-Villa{
+    
+            &-img{
+                height: 6.2rem;
+                width: 6.2rem;
+                transition: all .3s;
+
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+    
+            &-h5{
+                text-align: center;
+                font-size: 1.1rem;
+                /* font-family: sans-serif; */
+                font-weight: 600;
+                transition: all .3s;
+                margin-top: 0.6rem;
+
+
+                &:hover{
+                    color: #2ea5a4;
+               }
+            }
+              
+        }
+    
+        &-Home{
+    
+            &-img{
+                height: 6.2rem;
+                width: 6.2rem;
+                transition: all .3s;
+
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+    
+            &-h5{
+                text-align: center;
+                font-size: 1.1rem;
+                /* font-family: sans-serif; */
+                font-weight: 600;
+                transition: all .3s;
+                margin-top: 0.6rem;
+
+
+                &:hover{
+                    color: #2ea5a4;
+               }
+            }
+              
+        }
+    
+        &-Luxury{
+    
+            &-img{
+                height: 6.2rem;
+                width: 6.2rem;
+                transition: all .3s;
+
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+    
+            &-h5{
+                text-align: center;
+                font-size: 1.1rem;
+                /* font-family: sans-serif; */
+                font-weight: 600;
+                transition: all .3s;
+                margin-top: 0.6rem;
+
+
+                &:hover{
+                    color: #2ea5a4;
+               }
+
+            }
+              
+        }
+    
+        &-Hotel{
+             &-img{
+                height: 6.2rem;
+                width: 6.2rem;
+                transition: all .3s;
+
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+    
+            &-h5{
+                text-align: center;
+                transition: all .3s;
+                margin-top: 0.6rem;
+
+                
+                    font-size: 1.1rem;
+                    /* font-family: sans-serif; */
+                    font-weight: 600;
+
+                    &:hover{
+                        color: #2ea5a4;
+                   }
+            }
+              
+        }
+    }
+
+
+    
+}

@@ -1,0 +1,167 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    margin-top: 8rem;
+
+
+    &-logobox{
+
+        &-logo{
+            height: 8rem;
+            width: 13rem;
+        }
+
+        &-para{
+            width: 20rem;
+    text-align: left;
+        }
+
+        &-svgs{
+
+            &-1{    
+                height: 2.2rem;
+                width: 2.2rem;
+                 background-color: #e6f5f5;
+                 fill: $color-primary;
+                padding: 0.5rem;
+                &:not(:last-child){
+                    margin-right: 1.5rem;
+                }
+                margin-top: 1rem;
+
+                &:hover{
+                    background-color: $color-primary;
+                    fill: white;
+                }
+
+            }
+        }
+
+
+    }
+
+
+
+    &-help{ 
+        margin-left: -3rem;
+        &-h2{
+            font-size: 1.6rem;
+            font-family: sans-serif;
+            font-weight: 500;
+            margin-left: -1rem;
+            margin-bottom: 1rem;
+        }
+
+        &-span{
+            font-size: 1.2rem;
+            font-weight: bolder;
+            color: $color-primary;
+            margin-left: -3px;
+        }
+
+        &-lists{
+             list-style: none;
+             margin-top: 1rem;
+             color: black   ;
+        }
+
+        &-items{
+            &:not(:last-child){
+                margin-bottom: 1.5rem;
+            }
+           
+
+            &:hover{
+                border-bottom: 2px solid $color-primary;
+                display: inline-block;
+            }
+
+         }
+
+        &-links{
+            text-decoration: none;
+            color: black;
+            font-size: 1.1rem;
+        }
+    }
+
+
+    &-newsletter{
+        display: flex;
+        flex-direction: column;
+        margin-right: -3rem;
+        &-email{
+            height: 4rem;
+            width: 18rem;
+            border: 2px solid $color-primary;
+            margin-left: -0.9rem;
+            margin-top: 1.5rem;
+            font-size: 1rem;
+             
+        }
+
+        &-btn{
+            
+            border: none;
+            height: 3rem;
+            margin-top: 2rem;
+            width: 8rem;
+            background: $color-primary;
+            color: white;
+            margin-left: -0.8rem;
+            transition: all .2s;
+            border-radius: 2px;
+
+            &:hover{
+                 transform: scale(1.1);
+            }
+            &:active{
+                transform: scale(1.0001);
+            } 
+        } 
+ 
+
+        &-message{
+            margin-top: 2rem;
+            margin-left: -0.6rem;
+            color: $color-primary;
+            font-family: sans-serif;
+            font-size: 0.8rem;
+        }
+
+    }
+
+    &-links{
+        &-svg{
+            height: 1.5rem;
+            width: 1.5rem;
+            fill: $color-primary;
+        }
+
+         &-location{
+            margin-top: 2rem;
+            margin-bottom: 1.6rem;
+
+            &-span{
+                color: $color-primary;
+            }
+         }
+
+         &-mail{
+
+            
+            &-span{
+                    color: $color-primary;
+            }
+         }
+
+         &-phone{
+            margin-bottom: 1.6rem;
+            &-span{
+                color: $color-primary;
+            }
+         }
+    }
+
+}
